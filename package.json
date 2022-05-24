@@ -1,0 +1,29 @@
+{
+  "name": "ex-restify-api",
+  "version": "1.0.0",
+  "description": "configurações iniciais para uma api com restify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmelo12/ex-restify-api.git"
+  },
+  "keywords": [
+    "restify",
+    "api"
+  ],
+  "author": "Thiago Melo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmelo12/ex-restify-api/issues"
+  },
+  "homepage": "https://github.com/tmelo12/ex-restify-api#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.16",
+    "restify": "^8.6.1"
+  }
+}
